@@ -1,0 +1,11 @@
+# Create the project directory
+mkdir alx_travel_app
+cd alx_travel_app
+
+# Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Create the Django project and app
+django-admin startproject alx_travel_app .
+python manage.py startapp listings
